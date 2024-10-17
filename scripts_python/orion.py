@@ -16,7 +16,7 @@ def get_data():
         res.raise_for_status()
         #Convert answer to JSON (JS Object Notation)
         data = res.json()
-        print(data)
+        print(data) #poner menu quitando el print
 
     except requests.exceptions.RequestException as e:
         print(f"API error: {e}") 
