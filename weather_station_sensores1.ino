@@ -31,22 +31,7 @@ void loop()
   Serial.print(temp);
   Serial.print(" \xB0");
   Serial.println("C");
-  
-  /*
-      10 bits => 0 and (2^10)-1 = 0 -> 1023
-      0    => 0 V
-      1023 => 5 V
-      
-      TMP36 => Produce 500 Mv (0.5 V) a 0 °C.
-      Cada grado aumenta en 10 mV (0.01 V) 
-      
-      offset => Margen de error  (Restar offset) 50.0
-     
-  */
-  
-  
-    //LM35 
-  
+
   
   
  //Lógica de control para el motor y el LED
